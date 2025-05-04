@@ -20,5 +20,7 @@ from django.conf.urls import include # add this
 
 urlpatterns = [
     path('', include('contacts_api.urls')), # add this
+    path('company/', include('companies_api.urls')),
+    path('location/', include('locations_api.urls')),
     path('admin/', admin.site.urls),
 ]

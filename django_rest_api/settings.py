@@ -33,6 +33,8 @@ ALLOWED_HOSTS = ['localhost', '3.80.194.147']
 INSTALLED_APPS = [
     'corsheaders', # add this
     'rest_framework',
+    'locations_api',
+    'companies_api',
     'contacts_api',
     'django.contrib.admin',
     'django.contrib.auth',
